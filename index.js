@@ -101,7 +101,10 @@ const directors = ['spikelee', 'ridleyscott', 'zemeckis'];
 
 // 1. add "tonyscott" value to the end of `directors` array
 
+directors.push('tonyscott');
+
 // 2. remove "spikelee" value and store it in a variable called firstDirector
+//directors.
 
 // 3. add "himself" value to the start of `directors` array
 
@@ -111,8 +114,19 @@ const directors = ['spikelee', 'ridleyscott', 'zemeckis'];
 
 
 // Q9. Write the function `duplicate` that return the expected result
+
+function duplicate(liste){
+  var size = liste.length;
+  for (var i=0; i<size; i++){
+    liste.push(liste[i]);
+    console.log(liste[i]);
+  }
+  return liste;
+}
 console.log(duplicate(['Happily', 'Ever', 'After', 'Fairy', 'Tales', 'for', 'Every', 'Child']));
 // ❯ ['Happily', 'Ever', 'After', 'Fairy', 'Tales', 'for', 'Every', 'Child', 'Happily', 'Ever', 'After', 'Fairy', 'Tales', 'for', 'Every', 'Child']
+
+
 
 
 // Q10. Refactor the current ES5-style function `police` in ES6-style.
