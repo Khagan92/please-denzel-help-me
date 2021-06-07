@@ -90,6 +90,11 @@ console.log(Movie5.infoMovie);
 // Q7. Return a new array from `debaters` with all item in uppercase
 const debaters = ['we do', 'what we have to do', 'in order to do', 'what we want to do'];
 
+for (var i=0; i< debaters.length; i++){
+  debaters[i] = debaters[i].toUpperCase();
+  console.log(debaters[i]);
+}
+
 // Q8. Using this array.
 // Do the following 5 steps
 const directors = ['spikelee', 'ridleyscott', 'zemeckis'];
