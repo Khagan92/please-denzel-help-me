@@ -147,8 +147,12 @@ console.log(police(chorus));
 // Q11. Related to the https://www.tvmaze.com/people/66167/denzel-washington link
 // What's the query selector to get all Cast Credits titles (Live with Kelly & Ryan, The Late Show with Stephen Colbert...).
 
+//the query selector is <a> inside <article>
+
 // Q12. Related to the https://www.tvmaze.com/people/66167/denzel-washington link
 // How many http requests are performed to render the page?
+
+//39 I have find this in Inspecter -> Réseau
 
 // Q13. Related to the following api call with "curl"
 // ❯ curl "http://api.tvmaze.com/people/6616"
@@ -183,10 +187,30 @@ fetch('http://api.tvmaze.com/search/people?q=denzel+washington')
 
 // Q16. Give me at least 3 memorable websites that engage to continue (because of nice UX/UI AND avoid to give me facebook, airbnb etc...)
 
+//The ESILV Website
+//The Games Workshop website
+//The YouTube website
+//The Amazon Website
+
 // Q17. Describe an ESILV project that you worked on that you’re proud of?
+
+//It was a project of Programmation Orienté Objet where we had to create an interface and a database to make a restaurant working
+//It was focus on the creation of dishes and menu, and storage replenishment and we had done a lovely WPF interface to make this work
+//it back back in A3
+
 
 // Q18. Describe an ESILV project that you worked on that you’re not so proud of?
 
+//This project with an API with VERCEL because I have discovered recently that I want to be 
+//Solution Architect and it seems that it's this project was the basis of this job
+
 // Q19. What are some things you like about the developer tools you use?
 
+//the flexibility of the job
+//the unreality, mind representation of the thing
+//could apply in really any domain
+
 // Q20. Last question: could you explain me - in your terms - why the title of the course is "Web Application Architecture(s)" and not "Web Application Architecture"?
+
+//Beacuase there is thousand of web applications architectures
+//Just have to look at the evolution of SOAP -> AJAX -> REST etc..
