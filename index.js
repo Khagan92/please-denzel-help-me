@@ -1,5 +1,8 @@
 // Q1. Create a variable called `denzel` - that can't be redeclared - and assign it the string 'please denzel, help me'
-let denzel = 'please denzel, help me';
+const denzel = 'please denzel, help me';
+console.log(denzel);
+//denzel = 'redeclared';
+//console.log(denzel);
 
 // Q2. Use the variable `actor` to create a new variable called `inspirational` that is assigned the string "Is Denzel Washington an inspirational actor?"
 const actor = 'Denzel Washington';
@@ -10,6 +13,22 @@ console.log(inspirationnal);
 // family has been `married` on "1983" (Number)
 // family is not `presidentOfTheUnitedStates` (boolean)
 // family has `children` called "John David", "Katia", "Olivia" and "Malcolm" (array of strings)
+
+const familyObject = {
+  married: Number,
+  presidentOfTheUnitedStates: Boolean,
+  children: Array[String]
+
+}
+
+const family = Object.create(familyObject);
+family.married = 1983;
+family.presidentOfTheUnitedStates = false;
+family.children = ["John David", "Katia", "Olivia", "Malcolm"];
+
+console.log(family.married);
+console.log(family.presidentOfTheUnitedStates);
+console.log(family.children);
 
 // Q4. Change
 // * the `name` stage to "A Raisin in the Sun"
