@@ -115,11 +115,10 @@ directors.push('tonyscott');
 
 // Q9. Write the function `duplicate` that return the expected result
 
-function duplicate(liste){
+const duplicate = function (liste){
   var size = liste.length;
   for (var i=0; i<size; i++){
     liste.push(liste[i]);
-    console.log(liste[i]);
   }
   return liste;
 }
