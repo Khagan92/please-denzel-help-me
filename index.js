@@ -61,6 +61,32 @@ console.log(awards['movie']);
 // * Cry Freedom (1987)
 // * For Queen and Countryy (1988)
 
+const earlywork = {
+  infoMovie : {}
+}
+
+const Movie1 = Object.create(earlywork);
+Movie1['infoMovie']={"Carbon Copy" :1981};
+
+const Movie2 = Object.create(earlywork);
+Movie2['infoMovie']={"A Soldier Story" :1984};
+
+const Movie3 = Object.create(earlywork);
+Movie3['infoMovie']={"Power" :1986};
+
+const Movie4 = Object.create(earlywork);
+Movie4['infoMovie']={"Cry Freedom" :1987};
+
+const Movie5 = Object.create(earlywork);
+Movie5['infoMovie']={"For Queen and Country" :1988};
+
+console.log(Movie1.infoMovie);
+console.log(Movie2.infoMovie);
+console.log(Movie3.infoMovie);
+console.log(Movie4.infoMovie);
+console.log(Movie5.infoMovie);
+
+
 // Q7. Return a new array from `debaters` with all item in uppercase
 const debaters = ['we do', 'what we have to do', 'in order to do', 'what we want to do'];
 
